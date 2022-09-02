@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    font-family: 'Noto Serif', serif;
+}
+.our-services{
+
+    padding: 4rem 7%;
+    background-color: white;
+
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.left-service-content{
+  
+    margin-top: 13px;
+}
+
+.right-service-content{
+   display:flex;
+
+}
+.left-service-content h1{
+    font-size: 40px;
+    color:blue;
+  
+}
+
+.right-btn a{
+    background-color:rgb(220, 162, 54);
+    padding: 1rem 1.7rem;
+    margin:13px;
+    text-decoration: none;
+    cursor: pointer;
+     border-radius: 6px;
+    font-size: 1.5rem;
+    color: white;
+    width: auto;
+}
+.right-btn a:hover{
+    background-color:pink;
+    color:whitesmoke;
+    transition: 0.5s ease-out;
+}
+ .left-service-content p{
+    font-size: 1rem;
+}
+/*Services*/
+
+.main-services{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.inner-services-content{
+    flex: 1 1 300px;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+.inner-services-content h2{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.inner-services-content p{
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.service-icon i{
+    font-size: 4rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 8rem;
+   
+    color: white;
+    background-color:lightcoral;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.service-icon i:hover{
+    background-color:lightgreen;
+  
+    color: lightseagreen;
+} 
+
+
+/*Gallery Style */
+.gallery{
+    padding: 4rem 7%;
+   background-color: whitesmoke;
+}
+.gallery h1{
+    color: salmon;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.inner-gallery{
+    flex:1 1 300px;
+
+}
+.inner-gallery .imageGallery{
+    width: 100%;
+    transition: .3s;
+}
+ #img1{
+  
+    background: url('./images/gal1.jpg');
+  width:19rem;
+    height: 13rem;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    top:44%;
+    left:26%;
+  
+
+}
+#img2{
+    background: url('./images/gal2.jpg');
+    width:19rem;
+      height: 13rem;
+     
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:relative;
+      top:44%;
+      left:26%;
+}
+#img3{
+    background: url('./images/gal3.jpg');
+    width:19rem;
+      height: 13rem;
+     
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:relative;
+      top:44%;
+      left:26%;
+}
+#img4{
+    background: url('./images/gal4.jpg');
+    width:19rem;
+      height: 13rem;
+     
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:relative;
+      top:44%;
+      left:26%;
+}
+#img5{
+    background: url('./images/gal5.jpg');
+    width:38rem;
+      height: 22rem;
+     
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:relative;
+      margin-top: 16px;
+      
+      left:13%;
+}
+#img6{
+    background: url('./images/gal6.jpg');
+    width:38rem;
+      height: 22rem;
+     
+      background-size: cover;
+      background-repeat: no-repeat;
+      position:relative;
+      margin-top: 16px;
+      
+      left:12%;
+      
+}
+.imageGallery{
+    cursor: pointer;
+    border-radius: 6px;
+}
+.inner-gallery .imageGallery:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    cursor: pointer;
+}
